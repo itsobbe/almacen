@@ -1,0 +1,20 @@
+EXAMEN:
+
+para la cuestion de devolucion:
+    lo que he hecho que en vez de delete de caja_backup he hecho un update donde se rellena la columna de vuelta hacia el almacén
+    y lo demás funciona como anteriormente
+
+    he tenido que modificar el trigger de heidi para que al insertar caja en caja back up introduzca null en la nueva columna asi cuando 
+    se devuelve se rellena y se van creando nuevos registros
+    
+    Como en la explicación del examen se dijo que las fechas no iban a coincidir nunca y que controlasemos que no de error por mismo codigo
+    hago unique fechas combinadas con codigo y de esa manera no da problemas
+
+
+para el seguimiento hago una funcion que me dice si esta en la tabla caja o en caja backup 
+luego otra funcion donde saca los datos segun donde esté
+y luego otra de contador para ver cuantas veces se ha devuelto
+
+y en la vista segun sea una u otra opcion muestra una tabla u otros
+
+creada en la clase caja back up la variable y los metodos para la nueva fecha

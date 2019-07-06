@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01-nov-2018, 12:54:04
+    Author     : owa_7
+*/
+
+.bs-callout-success { /*para vista mensaje exito color */
+    border-left-color: green;
+}
+.dropdown-menu {  /*color de fondo del submenu*/
+    background-color: #5f5f5f !important;
+}
+.dropdown-item{  /*para el color letra de submenu*/
+    color:#e4e4e4 !important;
+}
+.error{
+    color:beige !important;
+    border-left-color:red !important;;
+}
